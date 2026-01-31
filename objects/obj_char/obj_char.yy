@@ -1,16 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Object1",
-  "eventList":[],
+  "%Name":"obj_char",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object1",
+  "name":"obj_char",
   "overriddenProperties":[],
   "parent":{
     "name":"Personagem",
     "path":"folders/Personagem.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -26,8 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"sprt_char",
+    "path":"sprites/sprt_char/sprt_char.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
