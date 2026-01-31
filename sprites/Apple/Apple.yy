@@ -44,8 +44,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"BLANK GAME",
-    "path":"BLANK GAME.yyp",
+    "name":"Tree",
+    "path":"folders/Mobs/Tree.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
