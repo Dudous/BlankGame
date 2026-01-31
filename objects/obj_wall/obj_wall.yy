@@ -6,8 +6,8 @@
   "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personagem",
-    "path":"folders/Personagem.yy",
+    "name":"Sprites",
+    "path":"folders/GameRooms/Map/Sprites.yy",
   },
   "parentObjectId":null,
   "persistent":false,

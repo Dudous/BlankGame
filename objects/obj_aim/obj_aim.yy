@@ -8,8 +8,8 @@
   "name":"obj_aim",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personagem",
-    "path":"folders/Personagem.yy",
+    "name":"Character",
+    "path":"folders/Character.yy",
   },
   "parentObjectId":null,
   "persistent":false,
