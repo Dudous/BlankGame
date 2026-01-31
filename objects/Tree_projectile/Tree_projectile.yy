@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Tree",
+  "%Name":"Tree_projectile",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Tree",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Mob","path":"objects/Mob/Mob.yy",},"propertyId":{"name":"spot_range","path":"objects/Mob/Mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"250",},
-  ],
+  "name":"Tree_projectile",
+  "overriddenProperties":[],
   "parent":{
     "name":"Tree",
     "path":"folders/Mobs/Tree.yy",
   },
-  "parentObjectId":{
-    "name":"Mob",
-    "path":"objects/Mob/Mob.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Tree_default_sprite",
-    "path":"sprites/Tree_default_sprite/Tree_default_sprite.yy",
+    "name":"Apple",
+    "path":"sprites/Apple/Apple.yy",
   },
   "spriteMaskId":null,
   "visible":true,
