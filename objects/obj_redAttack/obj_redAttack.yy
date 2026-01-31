@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Attack",
-    "path":"folders/Personagem/Attack.yy",
+    "path":"folders/Character/Attack.yy",
   },
   "parentObjectId":null,
   "persistent":false,
