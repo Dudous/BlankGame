@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"RoomGenerator",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RoomGenerator",
+  "parent":{
+    "name":"RoomGeneration",
+    "path":"folders/RoomGeneration.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
