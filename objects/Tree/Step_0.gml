@@ -1,5 +1,8 @@
+// pause
+if (obj_controller.game_pause) exit;
+
 // verifica se o jogador está no alcance
-if collision_circle(x, y, spot_range, obj_char, false, true) {
+if collision_circle(x, y, spot_range, Player, false, true) {
     is_hostil = true;
 } else {
     is_hostil = false;
@@ -14,7 +17,7 @@ if (shoot_timer > 0) {
 if (is_hostil && shoot_timer <= 0) {
     var apple = instance_create_layer(x , y , "Instances", Tree_projectile);
 
-    var dir = point_direction(x, y, obj_char.x, obj_char.y);
+    var dir = point_direction(x, y, Player.x, Player.y);
     apple.direction = dir;
     apple.speed = 8;
 

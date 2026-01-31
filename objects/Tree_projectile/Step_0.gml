@@ -1,5 +1,8 @@
-if (place_meeting(x, y, obj_char)) {
-    obj_char.player_damage()
+// pause
+if (obj_controller.game_pause) exit;
+
+if (place_meeting(x, y, Player)) {
+    Player.player_damage()
     instance_destroy(); // destrói a maçã
 }
 

@@ -40,7 +40,7 @@ if (mouse_check_button_pressed(mb_left))
         (middle_y + 100) + sprite_get_height(sprt_quit)*0.4/2)) 
 	{
 		game_pause = !game_pause;
-		obj_char.player_death();
+		Player.player_death();
     }
 }
 

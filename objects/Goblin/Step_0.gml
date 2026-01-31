@@ -1,3 +1,6 @@
+// pause
+if (obj_controller.game_pause) exit;
+
 if (move_timer > 0) 
 {
     move_timer--;
@@ -46,4 +49,44 @@ if (current_dir != -1) {
 
     // Aplica o movimento com colisão
     move_and_collide(_vx, _vy, obj_wall);
+}
+
+
+var player_proximo = place_meeting(x, y, Player);
+
+if (player_proximo && _current_state == "idle") {
+    _current_state = "attack";
+    image_index = 0;
+    sprite_index = goblin_sprite_atk; 
+	show_debug_message(_current_state)
+}
+
+if ((image_index >= image_number - 1) && _current_state == "attack") {
+    _current_state = "idle";
+    sprite_index = goblin_sprite;
+	show_debug_message(_current_state)
+}
+
+
+
+if (_current_state == "attack")
+{
+	mask_index = goblin_sprite_atk_hitboxes;
+	
+	var _is_player_contact = instance_place(x, y, Player);
+	
+	if (_is_player_contact != noone && _can_damage)
+	{
+		_can_damage = false;		
+		Player.player_damage()
+	} 
+	
+	if (_is_player_contact != noone && _can_damage) {
+	    
+	
+	}
+	
+} else {
+	mask_index = goblin_sprite;
+	_can_damage = true;
 }
