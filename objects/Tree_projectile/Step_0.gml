@@ -3,4 +3,4 @@ if (place_meeting(x, y, obj_char)) {
     instance_destroy(); // destrói a maçã
 }
 
-gesture_rotate_angle(gesture_get_rotate_angle() + 35) 
+image_angle += 10;

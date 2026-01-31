@@ -12,9 +12,9 @@ if (shoot_timer > 0) {
 
 // atira só quando o tempo acabar
 if (is_hostil && shoot_timer <= 0) {
-    var apple = instance_create_layer(x + 30, y + 75, "Instances", Tree_projectile);
+    var apple = instance_create_layer(x , y , "Instances", Tree_projectile);
 
-    var dir = point_direction(x + 30, y + 75, obj_char.x, obj_char.y);
+    var dir = point_direction(x, y, obj_char.x, obj_char.y);
     apple.direction = dir;
     apple.speed = 8;
 

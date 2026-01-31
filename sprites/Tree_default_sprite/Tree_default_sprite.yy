@@ -20,10 +20,11 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b9c4c11d-9e39-4278-94ba-1533dec80109","blendMode":0,"displayName":"default","isLocked":false,"name":"b9c4c11d-9e39-4278-94ba-1533dec80109","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"17c9f598-43bc-406b-b8f0-3e7654c84f47","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"17c9f598-43bc-406b-b8f0-3e7654c84f47","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Tree_default_sprite",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Tree",
     "path":"folders/Mobs/Tree.yy",
@@ -75,8 +76,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":632,
+    "yorigin":995,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
