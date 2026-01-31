@@ -29,6 +29,8 @@
     {"id":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"goblin_sprite_atk_hitboxes","path":"sprites/goblin_sprite_atk_hitboxes/goblin_sprite_atk_hitboxes.yy",},},
+    {"id":{"name":"goblin_sprite_atk","path":"sprites/goblin_sprite_atk/goblin_sprite_atk.yy",},},
     {"id":{"name":"goblin_sprite","path":"sprites/goblin_sprite/goblin_sprite.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},

@@ -1,4 +1,3 @@
-
 if (move_timer > 0) 
 {
     move_timer--;
@@ -28,7 +27,7 @@ else
 
     move_timer = 90;
     
-    show_debug_message("Nova direção: " + _chosen_dir + " | Repetições: " + string(quantity));
+    //show_debug_message("Nova direção: " + _chosen_dir + " | Repetições: " + string(quantity));
 }
 
 if (current_dir != -1) {
