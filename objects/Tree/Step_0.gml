@@ -1,0 +1,1 @@
+sprite_add(Spot_zone, 1, false, false, 200, 200)
