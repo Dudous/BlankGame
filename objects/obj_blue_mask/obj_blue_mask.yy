@@ -6,8 +6,8 @@
   "name":"obj_blue_mask",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personagem",
-    "path":"folders/Personagem.yy",
+    "name":"Mask",
+    "path":"folders/Character/Mask.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_green_mask",
+  "%Name":"obj_red_mask",
   "eventList":[],
   "managed":true,
-  "name":"obj_green_mask",
+  "name":"obj_red_mask",
   "overriddenProperties":[],
   "parent":{
     "name":"Mask",
