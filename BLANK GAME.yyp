@@ -49,6 +49,7 @@
     {"id":{"name":"sprt_background","path":"sprites/sprt_background/sprt_background.yy",},},
     {"id":{"name":"sprt_blueAttack","path":"sprites/sprt_blueAttack/sprt_blueAttack.yy",},},
     {"id":{"name":"sprt_char","path":"sprites/sprt_char/sprt_char.yy",},},
+    {"id":{"name":"sprt_cooldown","path":"sprites/sprt_cooldown/sprt_cooldown.yy",},},
     {"id":{"name":"sprt_emptHeart","path":"sprites/sprt_emptHeart/sprt_emptHeart.yy",},},
     {"id":{"name":"sprt_fullHeart","path":"sprites/sprt_fullHeart/sprt_fullHeart.yy",},},
     {"id":{"name":"sprt_greenAttack","path":"sprites/sprt_greenAttack/sprt_greenAttack.yy",},},

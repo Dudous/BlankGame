@@ -29,6 +29,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"game_pause","filters":[],"listItems":[],"multiselect":false,"name":"game_pause","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"scale_play","filters":[],"listItems":[],"multiselect":false,"name":"scale_play","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.4","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"scale_quit","filters":[],"listItems":[],"multiselect":false,"name":"scale_quit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.4","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

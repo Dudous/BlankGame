@@ -22,4 +22,6 @@ var lightBlue_color = make_color_rgb(30, 30, 190);
 var lightGreen_color = make_colour_rgb(180, 50, 50);
 
 var percentCooldown = (cooldown / cooldown_max) * 100;
-draw_healthbar(10, 90, 255, 60, percentCooldown, darkBlue_color, lightBlue_color, lightBlue_color, 0, true, true);
+
+draw_sprite(sprt_cooldown, 0, 10, 60);
+draw_healthbar(24, 96, 241, 72, percentCooldown, darkBlue_color, lightBlue_color, lightBlue_color, 0, true, true);
