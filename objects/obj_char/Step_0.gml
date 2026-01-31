@@ -30,5 +30,45 @@ if (keyboard_check(ord("F")) and cooldown <= 0)
 }
 
 
-//cooldown
+// cooldown
 cooldown -= delta_time / 500000;
+
+
+// life
+function player_damage()
+{
+    life--;
+	if(life<=0)
+	{
+		player_death()
+	}
+}
+
+function player_heal()
+{
+	if(life<max_life)
+	{
+		life++;
+	}
+}
+
+function player_death()
+{
+	
+}
+
+
+
+
+
+
+
+// Exemplo de dano
+if (keyboard_check_pressed(ord("P")))
+{player_damage()}
+
+
+
+
+
+

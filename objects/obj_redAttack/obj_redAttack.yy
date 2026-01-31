@@ -8,8 +8,8 @@
   "name":"obj_redAttack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personagem",
-    "path":"folders/Personagem.yy",
+    "name":"Attack",
+    "path":"folders/Personagem/Attack.yy",
   },
   "parentObjectId":null,
   "persistent":false,
