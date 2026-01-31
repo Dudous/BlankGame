@@ -10,8 +10,8 @@ draw_set_alpha(1);
 
 draw_sprite(sprt_pause, 0, middle_x, middle_y);
 
-draw_sprite_ext(sprt_play, 0, middle_x, middle_y-70, 0.4, 0.4, 0, c_white, 1);
-draw_sprite_ext(sprt_quit, 0, middle_x, middle_y+100, 0.4, 0.4, 0, c_white, 1);
+draw_sprite_ext(sprt_play, 0, middle_x, middle_y-70, scale_play, scale_play, 0, c_white, 1);
+draw_sprite_ext(sprt_quit, 0, middle_x, middle_y+100, scale_quit, scale_quit, 0, c_white, 1);
 
 
 
@@ -20,30 +20,39 @@ var mx = device_mouse_x_to_gui(0);
 var my = device_mouse_y_to_gui(0);
 
 // clique do mouse
-if (mouse_check_button_pressed(mb_left))
+
+if (point_in_rectangle(
+    mx, my,
+    middle_x - sprite_get_width(sprt_play)*scale_play/2,
+    (middle_y - 70) - sprite_get_height(sprt_play)*scale_play/2,
+    middle_x + sprite_get_width(sprt_play)*scale_play/2,
+    (middle_y - 70) + sprite_get_height(sprt_play)*scale_play/2))
 {
-	if (point_in_rectangle(
-        mx, my,
-        middle_x - sprite_get_width(sprt_play)*0.4/2,
-        (middle_y - 70) - sprite_get_height(sprt_play)*0.4/2,
-        middle_x + sprite_get_width(sprt_play)*0.4/2,
-        (middle_y - 70) + sprite_get_height(sprt_play)*0.4/2))
-	{
-        game_pause = false;
-    }
+	scale_play = 0.43;
 	
-	if (point_in_rectangle(
-        mx, my,
-        middle_x - sprite_get_width(sprt_quit)*0.4/2,
-        (middle_y + 100) - sprite_get_height(sprt_quit)*0.4/2,
-        middle_x + sprite_get_width(sprt_quit)*0.4/2,
-        (middle_y + 100) + sprite_get_height(sprt_quit)*0.4/2)) 
+	if (mouse_check_button_pressed(mb_left))
+	{
+		game_pause = false;
+	}
+}
+else {scale_play=0.4;}
+	
+if (point_in_rectangle(
+    mx, my,
+    middle_x - sprite_get_width(sprt_quit)*scale_quit/2,
+    (middle_y + 100) - sprite_get_height(sprt_quit)*scale_quit/2,
+    middle_x + sprite_get_width(sprt_quit)*scale_quit/2,
+    (middle_y + 100) + sprite_get_height(sprt_quit)*scale_quit/2)) 
+{
+	scale_quit = 0.43;
+	
+	if (mouse_check_button_pressed(mb_left))
 	{
 		game_pause = !game_pause;
 		Player.player_death();
     }
 }
-
+else {scale_quit=0.4;}
 
 
 

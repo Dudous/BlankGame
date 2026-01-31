@@ -2,9 +2,41 @@
 if (obj_controller.game_pause) exit;
 
 
+var moving = false;
+
 // movement
 var _xinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _yinput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
+if (_xinput > 0)
+{
+	moving = true;
+	image_xscale = 1;
+}
+else if (_xinput < 0)
+{
+	moving = true;
+	image_xscale = -1;
+}
+else if (_yinput!=0)
+{
+	moving = true;
+}
+
+if (moving)
+{
+	if (sprite_index != sprt_char_walk) {
+        sprite_index = sprt_char_walk;
+        image_speed = 0.05;
+    }
+}
+else
+{
+	if (sprite_index != sprt_char_idle){
+		sprite_index = sprt_char_idle;
+		image_speed = 0.05;
+	}
+}
 
 move_and_collide(_xinput * my_speed, _yinput * my_speed, obj_wall);
 

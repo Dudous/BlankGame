@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprt_char",
-    "path":"sprites/sprt_char/sprt_char.yy",
+    "name":"sprt_char_idle",
+    "path":"sprites/sprt_char_idle/sprt_char_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
