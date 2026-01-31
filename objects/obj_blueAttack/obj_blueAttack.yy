@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_greenAttack",
+  "%Name":"obj_blueAttack",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_greenAttack",
+  "name":"obj_blueAttack",
   "overriddenProperties":[],
   "parent":{
     "name":"Personagem",
@@ -26,14 +26,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"life","filters":[],"listItems":[],"multiselect":false,"name":"life","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"life","filters":[],"listItems":[],"multiselect":false,"name":"life","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprt_greenAttack",
-    "path":"sprites/sprt_greenAttack/sprt_greenAttack.yy",
+    "name":"sprt_blueAttack",
+    "path":"sprites/sprt_blueAttack/sprt_blueAttack.yy",
   },
   "spriteMaskId":null,
   "visible":true,
